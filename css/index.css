@@ -1,0 +1,56 @@
+* {
+  font-family: "Intro Regular", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #23272f;
+  color: white;
+  border: none;
+}
+
+.blockWithBorders {
+  margin: 20px 10px;
+  width: 150px;
+  height: 51px;
+  background-color: #323b46;
+  color: #959cf6;
+  border: 4px solid #fabe60;
+  border-radius: 50px;
+  outline: 4px solid #d37215;
+  text-align: center;
+}
+
+.formName {
+  display: inline-block;
+  margin: 30px 30px 10px;
+  color: #959cf6;
+}
+
+.inputStyles {
+  margin: 10px 30px 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #323b4615;
+}
+
+.inputStyles:hover, :focus {
+  border-color: #a67f40;
+  outline-color: #8b4a0e;
+  color: #6266a4;
+}
+
+.buttonStyles {
+  width: 150px;
+  height: 51px;
+  position: relative;
+  cursor: pointer;
+}
+
+.buttonStyles:active {
+  border-color: #fbd495;
+  outline-color: #e1a163;
+  color: #b7bbf9;
+}
