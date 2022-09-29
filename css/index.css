@@ -5,6 +5,13 @@
   border: none;
   text-decoration: none;
 }
+/* Выделение текста */
+*::selection {
+  background: #eaeaea40; /* Chromium */
+}
+*::-moz-selection {
+  background: #eaeaea40; /* Firefox */
+}
 
 body {
   background-color: #23272f;
@@ -15,15 +22,12 @@ body {
 a {
   color: #fbd495;
 }
-
 a:hover {
   color: #d37215;
 }
-
 a:focus {
   color: #d37215;
 }
-
 a:active {
   color: #fabe60;
 }
@@ -52,12 +56,10 @@ a:active {
   height: 30px;
   background-color: #323b4615;
 }
-
 .inputStyles:hover, :focus {
   border-color: #a67f40;
   outline-color: #8b4a0e;
   color: #fabe60;
-  caret-color: #fabe60;
 }
 
 .buttonStyles {
@@ -66,9 +68,8 @@ a:active {
   position: relative;
   cursor: pointer;
 }
-
 .buttonStyles:active {
   border-color: #fbd495;
   outline-color: #e1a163;
-  color: #b7bbf9;
+  color: #fbd495;
 }
