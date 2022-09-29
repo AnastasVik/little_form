@@ -1,5 +1,6 @@
+@import url("../fonts/intro-transfonter/stylesheet.css");
 * {
-  font-family: "Intro Regular", sans-serif;
+  font-family: "Intro", sans-serif;
   outline: none;
   border: none;
   text-decoration: none;
@@ -9,6 +10,22 @@ body {
   background-color: #23272f;
   color: white;
   border: none;
+}
+
+a {
+  color: #fbd495;
+}
+
+a:hover {
+  color: #d37215;
+}
+
+a:focus {
+  color: #d37215;
+}
+
+a:active {
+  color: #fabe60;
 }
 
 .blockWithBorders {
@@ -39,7 +56,8 @@ body {
 .inputStyles:hover, :focus {
   border-color: #a67f40;
   outline-color: #8b4a0e;
-  color: #6266a4;
+  color: #fabe60;
+  caret-color: #fabe60;
 }
 
 .buttonStyles {
